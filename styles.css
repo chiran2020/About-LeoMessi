@@ -1,0 +1,525 @@
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(215, 228, 228); */
+  background-color: #333;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(29, 27, 27);
+  font-size: 25px;
+  /* position: fixed; */
+  /* padding: 30px; */
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  padding: 20px;
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  padding-bottom: 20px;
+}
+
+.navbar-links li a:hover {
+  background-color: #555;
+  color: #f7c08a;
+}
+
+.page-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  /* cursor: pointer; */
+  margin: 10px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* section,
+.for.body {
+  background-color: #333;
+} */
+
+section.for-body img {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  /* height: 100vh; */
+}
+
+section.for-body {
+  display: flex;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  /* width: 100vh; */
+}
+
+article.column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+article.column {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: 'Hurricane', cursive;
+  color: #9dc4e7;
+  background-color: #333;
+}
+
+/* .column {
+  width: 100%;
+} */
+
+article.homepage {
+  margin: 90px 15px 40px 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+article.homepage h2 {
+  font-family: 'Hurricane', cursive;
+}
+
+article.homepage p {
+  color: #fff;
+  font-size: 44px;
+  padding-bottom: 35px;
+  /* background-color: rgb(53, 58, 58); */
+}
+
+article.homepage button {
+  padding: 20px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+article.homepage button:hover {
+  /* background-color: #555; */
+  background-color: #f7c08a;
+  opacity: 0.9;
+}
+
+/* About Messi Part On Home Page! */
+
+section.messi-who {
+  display: flex;
+  width: 100%;
+  /* background-color: rgb(80, 69, 69); */
+  /* background-color: rgb(118, 145, 118); */
+  /* background-color: #333; */
+
+  /* height: 100%; */
+}
+
+.messi-who .messi-content {
+  display: flex;
+  max-width: 1000px;
+  padding-left: 3px;
+  width: 100%;
+}
+.messi-who .first-pic img {
+  /* padding-left: 50px; */
+  /* width: 330px; */
+  /* min-width: 330px; */
+  width: 100%;
+  border-top: 3px solid rgb(224, 107, 107);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: black;
+  /* min-width: 300px; */
+}
+
+.messi-who .second-pic img {
+  /* width: 330px; */
+  width: 100%;
+  /* min-width: 330px; */
+  border-top: 3px solid rgb(224, 107, 107);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  /* min-width: 300px; */
+}
+
+.messi-who .third-pic img {
+  /* min-width: 330px; */
+  width: 100%;
+  /* min-width: 380px; */
+  /* max-width: 300px; */
+  border-top: 3px solid rgb(224, 107, 107);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-radius: 10px;
+  background-color: black;
+  /* padding-right: 300px; */
+  /* padding: 30px; */
+  /* height: 100%; */
+}
+
+.messi-who .for-pics {
+  display: flex;
+  /* width: 100%; */
+}
+
+section.messi-who article {
+  /* width: 100%; */
+  flex-direction: column;
+  background-color: #650dbd;
+  border-top: 3px solid rgb(224, 107, 107);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-width: 600px;
+  /* width: 100%; */
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  /* height: 100%; */
+  max-width: 1000px;
+  /* max-width: 100%; */
+}
+
+.messi-who article h3 {
+  font-size: 40px;
+  background-color: rgb(29, 27, 27);
+  border: 2px solid rgb(29, 143, 63);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px;
+  padding-bottom: 5px;
+}
+
+.messi-who article p {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+#about-messi-btn button {
+  padding: 20px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  font-size: 25px;
+}
+#about-messi-btn button:hover {
+  background-color: #555;
+  background-color: #f7c08a;
+  opacity: 0.9;
+}
+
+/* Achivement Page */
+
+section.messi-achive {
+  /* margin-top: 20px; */
+}
+
+.messi-achive .for-pics {
+  display: flex;
+  width: 100%;
+  margin-top: 2px;
+}
+.messi-achive .for-pics img {
+  /* margin: 10px; */
+}
+
+.fortwo-pic,
+.three-pics {
+  display: flex;
+  /* width: 100%; */
+}
+
+.messi-soloPics {
+  display: flex;
+}
+
+.messi-achive .messi-soloPics {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+}
+
+section.messi-achive article {
+  flex-direction: column;
+  background-color: rgb(124, 192, 144);
+  min-width: 500px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 2px;
+  border-radius: 20px;
+  /* height: 100%; */
+  /* min-width: 490px; */
+  /* max-width: 500px; */
+}
+
+.messi-soloPics {
+  padding-left: 5px;
+}
+/* .messi-soloPics {
+  width: 20%;
+} */
+
+.messi-achive .first-pic img {
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* width: 200px; */
+}
+.messi-achive .second-pic img {
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* border-radius: 20px; */
+  width: 100%;
+  /* width: 300px; */
+}
+.messi-achive .third-pic img {
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* width: 100%; */
+}
+.messi-achive .fourth-pic img {
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* width: 100%; */
+}
+.messi-achive .fifth-pic img {
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.messi-achive .sixth-pic img {
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* width: 300px; */
+}
+
+.messi-achive .seventh-pic img {
+  display: block;
+  width: 100%;
+}
+
+#achivement-text {
+  color: rgb(128, 63, 63);
+}
+
+/* Messi Video */
+
+div#messi-video {
+  height: 100%;
+  background-color: rgb(57, 54, 68);
+}
+div .video-title {
+  /* display: inline; */
+  text-align: center;
+  width: 100%;
+}
+div .video-title h1 {
+  /* width: 100%; */
+  /* display: inline-block; */
+  font-size: 30px;
+  font-weight: 20px;
+  color: #fff;
+  background-color: rgb(107, 95, 95);
+  /* text-align: center; */
+}
+
+/* Form Page */
+
+.contact {
+  background-color: #fff;
+  width: 400px;
+  /* margin: 10px; */
+  padding: 10px;
+}
+
+.form-wrap {
+  background-color: #fff;
+  color: #333;
+  padding: 25px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+}
+
+.form-wrap .form-group {
+  margin-top: 15px;
+  color: rgb(73, 27, 4);
+}
+
+.form-wrap .form-group label {
+  margin-top: 20px;
+  display: block;
+}
+
+.form-wrap .form-group input {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border: 1px #e2d7d7 solid;
+  border-radius: 5px;
+}
+
+.form-wrap button {
+  padding: 10px;
+  background: #49c1a2;
+  width: 100%;
+  margin-top: 20px;
+  color: snow;
+}
+
+.form-wrap button:hover {
+  background: #37a08e;
+  cursor: pointer;
+}
+
+.form-wrap .bottom-text {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+h1 {
+  background: rgb(238, 230, 230);
+  font-size: 33px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  For Contact Page */
+
+section.for-contact {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+section .three-content {
+  display: flex;
+
+  width: 100%;
+  /* height: 100%; */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(29, 27, 27);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+footer #social-apps > * {
+  margin-right: 30px;
+}
+footer a {
+  color: #fff;
+}
+footer i {
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+footer a:hover {
+  color: #f7c08a;
+}
