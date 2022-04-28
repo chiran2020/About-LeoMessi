@@ -154,6 +154,7 @@ article.homepage button:hover {
 section.messi-who {
   display: flex;
   width: 100%;
+  margin-top: 40px;
   /* background-color: rgb(80, 69, 69); */
   /* background-color: rgb(118, 145, 118); */
   /* background-color: #333; */
@@ -245,6 +246,8 @@ section.messi-who article {
 
 #about-messi-btn button {
   padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
   border: 1px gray solid;
   border-radius: 10px;
   background-color: #fff;
@@ -261,7 +264,7 @@ section.messi-who article {
 /* Achivement Page */
 
 section.messi-achive {
-  /* margin-top: 20px; */
+  margin-top: 50px;
 }
 
 .messi-achive .for-pics {
@@ -307,11 +310,9 @@ section.messi-achive article {
 .messi-soloPics {
   padding-left: 5px;
 }
-/* .messi-soloPics {
-  width: 20%;
-} */
 
 .messi-achive .first-pic img {
+  background-color: black;
   width: 100%;
   border-top: 3px solid rgb(145, 72, 72);
   border-bottom: 3px solid rgb(145, 72, 72);
@@ -324,6 +325,7 @@ section.messi-achive article {
   /* width: 200px; */
 }
 .messi-achive .second-pic img {
+  background-color: black;
   border-top: 3px solid rgb(145, 72, 72);
   border-bottom: 3px solid rgb(145, 72, 72);
   border-top-left-radius: 15px;
@@ -337,6 +339,7 @@ section.messi-achive article {
   /* width: 300px; */
 }
 .messi-achive .third-pic img {
+  background-color: black;
   width: 100%;
   border-top: 3px solid rgb(145, 72, 72);
   border-bottom: 3px solid rgb(145, 72, 72);
@@ -347,6 +350,7 @@ section.messi-achive article {
   /* width: 100%; */
 }
 .messi-achive .fourth-pic img {
+  background-color: black;
   width: 100%;
   border-top: 3px solid rgb(145, 72, 72);
   border-bottom: 3px solid rgb(145, 72, 72);
@@ -359,17 +363,7 @@ section.messi-achive article {
   /* width: 100%; */
 }
 .messi-achive .fifth-pic img {
-  width: 100%;
-  border-top: 3px solid rgb(145, 72, 72);
-  border-bottom: 3px solid rgb(145, 72, 72);
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.messi-achive .sixth-pic img {
+  background-color: black;
   width: 100%;
   border-top: 3px solid rgb(145, 72, 72);
   border-bottom: 3px solid rgb(145, 72, 72);
@@ -382,8 +376,10 @@ section.messi-achive article {
   /* width: 300px; */
 }
 
-.messi-achive .seventh-pic img {
-  display: block;
+.messi-achive .sixth-pic img {
+  /* display: block; */
+  background-color: rgb(19, 24, 24);
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -392,32 +388,64 @@ section.messi-achive article {
 }
 
 /* Messi Video */
-
 div#messi-video {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(14, 13, 13);
+  padding: 10px;
+}
+
+div#messi-video video {
+  /* margin-top: 50px; */
+  border: orange 2px solid;
+  border-radius: 50px;
   height: 100%;
-  background-color: rgb(57, 54, 68);
+  /* width: 100%; */
+  width: 1000px;
 }
 div .video-title {
-  /* display: inline; */
+  display: inline-block;
   text-align: center;
-  width: 100%;
 }
 div .video-title h1 {
-  /* width: 100%; */
-  /* display: inline-block; */
   font-size: 30px;
   font-weight: 20px;
-  color: #fff;
-  background-color: rgb(107, 95, 95);
+  color: rgb(131, 74, 74);
+  background-color: rgb(8, 8, 8);
   /* text-align: center; */
 }
 
 /* Form Page */
 
+section.for-contact {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 50px;
+}
+
+section .contact {
+  border-radius: 10px;
+}
+
+.for-contact .family-pic img {
+  background-color: black;
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .contact {
   background-color: #fff;
   width: 400px;
-  /* margin: 10px; */
   padding: 10px;
 }
 
@@ -468,7 +496,7 @@ div .video-title h1 {
   margin-top: 20px;
 }
 
-h1 {
+.for-contact h1 {
   background: rgb(238, 230, 230);
   font-size: 33px;
 }
@@ -487,7 +515,6 @@ section.for-contact {
 
 section .three-content {
   display: flex;
-
   width: 100%;
   /* height: 100%; */
 }

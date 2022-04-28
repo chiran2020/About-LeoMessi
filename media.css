@@ -56,6 +56,8 @@
 
   article {
     padding-bottom: 40px;
+
+    width: 100%;
   }
   /* About Messi */
 
@@ -70,22 +72,26 @@
 
   .messi-who article p {
     text-align: center;
+    /* margin: 0, 40, 0, 40; */
     margin-right: 20px;
   }
 
   .messi-who .first-pic img {
-    padding: 2px 70px 2px 70px;
+    margin: 2px 300px 2px 300px;
+    width: 100%;
+    max-width: 300px;
   }
 
   .messi-who .second-pic img {
-    padding: 2px 80px 2px 80px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    margin: 2px 300px 2px 300px;
+    width: 100%;
+    max-width: 300px;
   }
 
   .messi-who .third-pic img {
-    padding: 2px 80px 2px 80px;
+    margin: 2px 300px 2px 300px;
+    width: 500px;
+    max-width: 300px;
   }
 
   .messi-who .for-pics {
@@ -101,6 +107,44 @@
   }
   .fortwo-pic {
     flex-direction: column;
+  }
+
+  .messi-achive .first-pic img {
+    margin: 2px 30px 2px 40px;
+    width: 500px;
+    max-width: 300px;
+  }
+  .messi-achive .second-pic img {
+    height: 100%;
+    margin: 2px 30px 2px 40px;
+    width: 500px;
+    max-width: 300px;
+  }
+
+  .messi-achive .third-pic img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .messi-achive .seventh-pic img {
+    /* display: block; */
+    margin-top: 10px;
+  }
+
+  /* Video */
+  div#messi-video {
+    margin-top: 10px;
+  }
+  div#messi-video video {
+    width: 100%;
+  }
+
+  /* Contact Part */
+  .for-contact .family-pic img {
+    /* background-color: tomato; */
+    margin: 2px 50px 2px 50px;
+    width: 500px;
+    max-width: 300px;
   }
 }
 
@@ -123,10 +167,13 @@
   }
 
   .messi-content {
-    /* display: block; */
     display: flex;
-    /* padding: 5px; */
-    /* width: 100%; */
+
+    width: 100%;
+  }
+
+  section .three-content img {
+    width: 100%;
   }
 
   .messi-who article {
@@ -188,6 +235,11 @@
   /* section .achive-pics-only .fourth-pic img {
     min-width: 300px;
   } */
+
+  /* Video */
+  div#messi-video video {
+    width: 100%;
+  }
 }
 
 /* For Contact Page*/
