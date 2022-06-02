@@ -445,7 +445,17 @@ section .contact {
 
 .contact {
   background-color: #fff;
-  width: 400px;
+  width: 100%;
+  border-top: 3px solid rgb(145, 72, 72);
+  border-bottom: 3px solid rgb(145, 72, 72);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* background-color: #fff; */
+  width: 100%;
   padding: 10px;
 }
 
